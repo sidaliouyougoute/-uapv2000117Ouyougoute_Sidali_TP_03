@@ -1,6 +1,4 @@
-"""This file contains a simple implementation of the one-time pad.
-It is NOT intended for production usage and has not been extensively verified for it.
-This file is simply an educational tool for AN implementation that works. """
+
 
 from secrets import choice  # Used to produce reliably random hex values
 from string import printable  # A list of printable characters to validate against
